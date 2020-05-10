@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #0f5995;
+}
+.main{
+    width: 15%;
+    margin: 150px auto;
+    background: #0aa3a8; 
+    
+}
+.lan-one{
+    border-bottom: 2px solid #fff;  
+    color: #fff;
+}
+.title{
+    font-weight: 400;
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+}
+.lan-one ul li{
+    list-style: none;
+    padding: 5px;
+}
+.lan-content{
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #0aa3a8; 
+    transition: 0.3s ease;
+    padding-left: 20px;
+}
+.lan-one:hover .lan-content{
+    height: 124px;
+}
